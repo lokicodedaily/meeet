@@ -6,16 +6,19 @@ html {
 
 body {
   background : #013243;
+  padding: 2rem;
+  width: auto;
+  height: auto;
 }
 
 /* header */
-.container{
-  padding: 2rem;
-  z-index: 10000;
-}
 
 
 /* body */
+.body {
+  margin-top: 10rem;
+}
+
 .heading {
   font-size: 6rem;
   font-family: 'Sen', sans-serif;
@@ -23,33 +26,58 @@ body {
   letter-spacing: 2px;
 }
 
+
 .caption {
+  font-size: 3rem;
+  letter-spacing: 1px;
   line-height: 1.5;
   width: 60vw;
-  font-size: 3rem;
-  letter-spacing: 1.2px;
 }
 
 .btn {
-  color: #013243;
   background-color: #32f5c8;
-  font-size: 2rem;
-  padding: 2rem;
-  border: 0;
   border-radius: 5px;
-  outline: 0;
+  border: 0;
+  color: #013243;
   cursor: pointer;
+  font-size: 2rem;
   font-weight: bold;
+  margin-top: 2rem;
+  outline: 0;
+  padding: 2rem;
 }
 
+.avatar5{
+  position: absolute;
+  left: 20rem;
+  bottom: 10rem;
+  z-index:-1000;
+}
+
+.avatar2,
+.avatar3{
+  position: absolute;
+  top:7rem;
+  right:1rem;
+  z-index: -1000;
+}
+
+.avatar3{
+  left:7rem;
+}
+
+
+.avatar4,
+.avatar1{
+  display: none;
+}
 
 
 /* footer */
 .promotion{
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  position: absolute;
-  bottom:2rem;
+  margin-top: 20vh
 }
 
 .text{
